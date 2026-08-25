@@ -6,25 +6,32 @@ import './Projects.css';
 export default function Projects() {
   const projects = [
     {
-      title: "CHART-BOOT",
-      desc: "An innovative chart and visualization tool. Built with modern web technologies.",
-      tech: ["HTML/CSS", "JavaScript"],
-      link: "https://github.com/navneetdevmishra/CHART-BOOT",
-      github: "https://github.com/navneetdevmishra/CHART-BOOT"
-    },
-    {
-      title: "CHAT-BOT",
-      desc: "An intelligent chatbot interface for interactive conversations.",
-      tech: ["CSS", "JavaScript", "AI"],
-      link: "https://github.com/navneetdevmishra/CHAT-BOT",
-      github: "https://github.com/navneetdevmishra/CHAT-BOT"
-    },
-    {
       title: "FitForge",
       desc: "Gamified AI Fitness Platform built at BYTE'S Hackathon 2026. Features real-time pose detection using TensorFlow.js MoveNet to revolutionize personal training.",
       tech: ["Next.js", "React", "MongoDB", "TensorFlow.js", "Gemini AI"],
       link: "https://fitforge-ruddy.vercel.app",
       github: "https://github.com/navneetdevmishra/FitForge"
+    },
+    {
+      title: "LLM AI Chatbot",
+      desc: "An intelligent Large Language Model-powered chatbot interface for seamless, context-aware interactive conversations.",
+      tech: ["React", "JavaScript", "AI / LLM"],
+      link: "https://github.com/navneetdevmishra/CHAT-BOT",
+      github: "https://github.com/navneetdevmishra/CHAT-BOT"
+    },
+    {
+      title: "DSA in Java",
+      desc: "A comprehensive repository containing optimized solutions and implementations of various Data Structures and Algorithms in Java.",
+      tech: ["Java", "Algorithms", "Data Structures"],
+      link: "https://github.com/navneetdevmishra/DSA-REPO-",
+      github: "https://github.com/navneetdevmishra/DSA-REPO-"
+    },
+    {
+      title: "Data Science & NLP",
+      desc: "A complete collection of Machine Learning and Natural Language Processing algorithms, models, and data analysis projects.",
+      tech: ["Python", "Machine Learning", "NLP", "Data Science"],
+      link: "https://github.com/navneetdevmishra/Complete-Data-Science-With-Machine-Learning-And-NLP-2024",
+      github: "https://github.com/navneetdevmishra/Complete-Data-Science-With-Machine-Learning-And-NLP-2024"
     }
   ];
 
