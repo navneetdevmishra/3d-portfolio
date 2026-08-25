@@ -31,6 +31,22 @@ export default function About() {
             <p>
               Currently, I focus on creating interactive 3D web experiences and robust full-stack applications.
             </p>
+            
+            <div className="leetcode-stats">
+              <h4>🏆 Coding Consistency</h4>
+              <div className="stats-box">
+                <div className="stat-item">
+                  <span className="stat-value">41</span>
+                  <span className="stat-label">Active Days</span>
+                </div>
+                <div className="stat-divider"></div>
+                <div className="stat-item">
+                  <span className="stat-value streak">33 🔥</span>
+                  <span className="stat-label">Max Streak</span>
+                </div>
+              </div>
+              <a href="https://leetcode.com/u/navneetmishra09988/" target="_blank" rel="noreferrer" className="leetcode-link hover-magnetic">View LeetCode Profile</a>
+            </div>
           </div>
 
           <div className="skills-grid">
