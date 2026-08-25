@@ -7,29 +7,29 @@ export default function Projects() {
   const projects = [
     {
       title: "FitForge",
-      desc: "Gamified AI Fitness Platform built at BYTE'S Hackathon 2026. Features real-time pose detection using TensorFlow.js MoveNet to revolutionize personal training.",
-      tech: ["Next.js", "React", "MongoDB", "TensorFlow.js", "Gemini AI"],
+      desc: "An AI fitness platform built during BYTE'S Hackathon 2026. It uses TensorFlow.js to track poses in real-time, acting as a virtual personal trainer.",
+      tech: ["Next.js", "React", "MongoDB", "TensorFlow.js"],
       link: "https://fitforge-ruddy.vercel.app",
       github: "https://github.com/navneetdevmishra/FitForge"
     },
     {
       title: "LLM AI Chatbot",
-      desc: "An intelligent Large Language Model-powered chatbot interface for seamless, context-aware interactive conversations.",
-      tech: ["React", "JavaScript", "AI / LLM"],
+      desc: "A custom chatbot interface built using modern LLM APIs to handle context-aware conversations.",
+      tech: ["React", "JavaScript", "AI APIs"],
       link: "https://github.com/navneetdevmishra/CHAT-BOT",
       github: "https://github.com/navneetdevmishra/CHAT-BOT"
     },
     {
       title: "DSA in Java",
-      desc: "A comprehensive repository containing optimized solutions and implementations of various Data Structures and Algorithms in Java.",
+      desc: "My personal collection of Data Structures and Algorithms solutions, implemented and optimized in Java.",
       tech: ["Java", "Algorithms", "Data Structures"],
       link: "https://github.com/navneetdevmishra/DSA-REPO-",
       github: "https://github.com/navneetdevmishra/DSA-REPO-"
     },
     {
       title: "Data Science & NLP",
-      desc: "A complete collection of Machine Learning and Natural Language Processing algorithms, models, and data analysis projects.",
-      tech: ["Python", "Machine Learning", "NLP", "Data Science"],
+      desc: "Various Machine Learning and Natural Language Processing models and data analysis projects I've worked on.",
+      tech: ["Python", "Machine Learning", "NLP"],
       link: "https://github.com/navneetdevmishra/Complete-Data-Science-With-Machine-Learning-And-NLP-2024",
       github: "https://github.com/navneetdevmishra/Complete-Data-Science-With-Machine-Learning-And-NLP-2024"
     }

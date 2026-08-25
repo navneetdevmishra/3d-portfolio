@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight, Download } from 'lucide-react';
+import avatarImg from '../assets/navneet-avatar-2.jpg';
 import './Hero.css';
 
 export default function Hero() {
@@ -50,7 +51,7 @@ export default function Hero() {
           className="hero-avatar-container"
         >
           <div className="hero-avatar-glow"></div>
-          <img src="/navneet-avatar-2.jpg" alt="Navneet Mishra" className="hero-avatar" />
+          <img src={avatarImg} alt="Navneet Mishra" className="hero-avatar" />
         </motion.div>
 
         <motion.div
@@ -81,9 +82,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
-          style={{ fontSize: '1.1rem', textAlign: 'justify' }}
+          style={{ fontSize: '1.1rem', textAlign: 'left', maxWidth: '600px', margin: '0 auto 2rem auto', color: 'var(--text-secondary)' }}
         >
-          Motivated B.Tech CSE student at Bihar Engineering University (2025-28) with a Diploma in CSE (2022-25). Currently working as a Java Trainee at DXC Technology. Passionate about Java Backend Development, eager to build impactful real-world tech solutions and drive innovation.
+          I'm a B.Tech CSE student and currently working as a Java Trainee at DXC Technology. I enjoy building scalable backend systems, experimenting with new web technologies, and turning ideas into real code.
         </motion.p>
         
         <motion.div 

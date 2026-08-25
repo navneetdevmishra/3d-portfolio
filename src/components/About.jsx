@@ -25,11 +25,10 @@ export default function About() {
           <div className="about-text glass-card">
             <h3>Who I am</h3>
             <p>
-              I am a passionate software developer dedicated to building high-quality, engaging, and performant web applications. 
-              My journey involves working with modern tools to deliver seamless user experiences.
+              Hey! I'm Navneet, a developer who enjoys building cool things for the web. My focus is on creating clean, efficient backends and interactive frontend experiences.
             </p>
             <p>
-              Currently, I focus on creating interactive 3D web experiences and robust full-stack applications.
+              Whether it's spinning up a Spring Boot API or playing around with 3D elements in React, I love diving into code and exploring new tech. When I'm not coding, I'm usually solving problems on LeetCode.
             </p>
             
             <div className="leetcode-stats">
