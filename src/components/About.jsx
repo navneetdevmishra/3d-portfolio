@@ -28,24 +28,8 @@ export default function About() {
               Hey! I'm Navneet, a developer who enjoys building cool things for the web. My focus is on creating clean, efficient backends and interactive frontend experiences.
             </p>
             <p>
-              Whether it's spinning up a Spring Boot API or playing around with 3D elements in React, I love diving into code and exploring new tech. When I'm not coding, I'm usually solving problems on LeetCode.
+              Whether it's spinning up a Spring Boot API or playing around with 3D elements in React, I love diving into code and exploring new tech.
             </p>
-            
-            <div className="leetcode-stats">
-              <h4>🏆 Coding Consistency</h4>
-              <div className="stats-box">
-                <div className="stat-item">
-                  <span className="stat-value">41</span>
-                  <span className="stat-label">Active Days</span>
-                </div>
-                <div className="stat-divider"></div>
-                <div className="stat-item">
-                  <span className="stat-value streak">33 🔥</span>
-                  <span className="stat-label">Max Streak</span>
-                </div>
-              </div>
-              <a href="https://leetcode.com/u/navneetmishra09988/" target="_blank" rel="noreferrer" className="leetcode-link hover-magnetic">View LeetCode Profile</a>
-            </div>
           </div>
 
           <div className="skills-grid">
